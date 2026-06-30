@@ -3,115 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato - Yūgen</title>
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 
-
-
-
-
-
 <body>
-    
-    <div class="WRAPPER">
 
-        <div class="boxlogo">
-            <img src="IMAGENSCAFE/logo.png" class="tamamanhologo" alt=""> <title>Logo</title>
+<div class="wrapper">
+
+    <div class="boxLogo menu-fixo">
+        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=80" class="tamanhoLogo" alt="LOGO DA EMPRESA">
+    </div>
+
+    <div class="boxMenu menu-fixo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="quemsomos.html">O Yūgen</a></li>
+                <li><a href="contato.html" class="botaoColorido">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="boxFormulario">
+
+        <div class="formulario">
+
+            <form method="post" id="FContato" action="mailto:yugen@gmail.com">
+
+                <h1>Faça sua reserva</h1>
+
+                <p>
+                    <label for="cNome">Nome:</label><br>
+                    <input type="text" name="tNome" id="cNome" size="40" maxlength="30" autofocus required>
+                </p>
+
+                <p>
+                    <label for="cRua">Endereço:</label><br>
+                    <input type="text" name="tRua" id="cRua" size="40" maxlength="50" placeholder="Rua, Av, Trav,..." required>
+                </p>
+
+                <p>
+                    <label for="cTel">Telefone:</label><br>
+                    <input type="tel" name="tTel" id="cTel" size="40" maxlength="30" required>
+                </p>
+
+                <p>
+                    <label for="cMail">E-mail:</label><br>
+                    <input type="email" name="tMail" id="cMail" size="40" maxlength="50" required>
+                </p>
+
+                <p>
+                    <label for="cReserva">Data da reserva:</label><br>
+                    <input type="date" name="tReserva" id="cReserva" size="40" required>
+                </p>
+
+                <p>
+                    <label for="cMsg">Mensagem:</label><br>
+                    <textarea name="tMsg" id="cMsg" cols="40" rows="3" placeholder="Deixe aqui sua mensagem"></textarea>
+                </p>
+
+                <input type="submit" value="Enviar reserva" class="botoes">
+
+            </form>
+
         </div>
 
+    </div>
 
+    <div class="boxRedesSociais">
+        <a href="#" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="tamanhoIcone" alt="Facebook">
+        </a>
+        <a href="#" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" class="tamanhoIcone" alt="Instagram">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5511012345678" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="tamanhoIcone" alt="WhatsApp">
+        </a>
+    </div>
 
-<div class="boxmenu">
-    <nav>
-        <ul>
-            <li> <a href="index.html"> Home </a>  </li>
-            <li> <a href="cardapio.html"> Cardápio </a>  </li>
-            <li> <a href="quemsomos.html"> O Yügen </a>  </li>
-            <li> <a href="Contato.html"> Contato </a>  </li>
+    <div class="boxRodape">
+        Todos os Direitos Reservados - 2025
+    </div>
 
-        </ul>
-    </nav>
 </div>
-     
-        <div class="boxformulario">
-
-            <div class="boxReserva">Faça sua reserva</div>
-
-        <form method="post" id="FContato" action="mailto:empresaX@gmail.com">
-        <p> 
-        <label for="cNome"> Nome de cadrastro: </label> <br>
-        <input type="text" name="tNome" id="cNome" size="40" maxlength="30" autofocus required />
-        </p> 
-
-        <p>
-        <label for="cRua">Endereço:</label><br>
-        <input type="text" name="tRua" id="cRua" size="40" maxlength="50"  placeholder="Rua, Av, Trav,..." required />
-        </p>
-
-        <p>
-        <label for="cData">Data:</label><br>
-        <input type="date" name="tMail" id="cMail" size="40" maxlength="30"  required />
-        </p>
-
-        <p>
-        <label for="cTel">Telefone:</label><br>
-        <input type="tel" name="tTel" id="cTel" size="40" maxlength="30"  required />
-        </p>
-            
-        <p>
-        <label for="cMail">E-mail:</label><br>
-        <input type="email" name="tMail" id="cMail" size="40" maxlength="30"  required />
-        </p>       
-        
-    <p>
-    <label for="cMsg">Mensagem:</label><br>
-    <textarea name="tMsg" id="cMsg" cols="40" rows="5" placeholder="Deixe aqui sua mensagem">
-    </textarea>  
-    </p>
-    
-
- 
-<input type="submit" name="Enviar" class="botaoFormulario" style="padding:10px 15px 10px 15px; border-radius:10px;border-color: #ffffff;" /> 
-  
-</form> 
-
-
-
-
-
-
-    
-</div>
-
-
-
-    </div>
-
-
-
-
-
-
-    <div class="boxredes">
-        <img src="IMAGENSCAFE/Facebook.png" class="tamanhoimgredes" alt=""> <title>facebook</title>
-        <img src="IMAGENSCAFE/Instagram.png" class="tamanhoimgredes" alt=""> <title>instagram</title>
-        <img src="IMAGENSCAFE/WhatsApp.png" class="tamanhoimgredes" alt=""> <title>whatsapp</title>
-
-    </div>
-
-
-    <div class="boxrodape">
-        Todos direitos são reservados para empresa - 2026 
-    </div>
-
-
-    </div>
-
-
 
 </body>
-
-
-
 </html>
